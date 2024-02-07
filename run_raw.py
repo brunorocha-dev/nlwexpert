@@ -1,5 +1,4 @@
-# Criando um servidor
-
+# Criando um servidor Flask
 from flask import Flask, request, jsonify
 from barcode import Code128
 from barcode.writer import ImageWriter
